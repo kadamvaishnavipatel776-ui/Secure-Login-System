@@ -1,0 +1,109 @@
+# Register.html:
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>Register</h2>
+
+<form method="POST">
+
+<input
+type="text"
+name="username"
+placeholder="Username"
+required>
+
+<br><br>
+
+<input
+type="password"
+name="password"
+placeholder="Password"
+required>
+
+<br><br>
+
+<button>
+Register
+</button>
+
+</form>
+
+<a href="/login">
+Login
+</a>
+
+</body>
+
+</html>
+
+
+
+
+# login.html:
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>Login</h2>
+
+<form method="POST">
+
+<input
+type="text"
+name="username"
+required>
+<br><br>
+
+<input
+type="password"
+name="password"
+required>
+
+<br><br>
+
+<button>
+Login
+</button>
+
+</form>
+
+<a href="/register">
+Register
+</a>
+
+</body>
+
+</html>
+
+
+# dashboard.html:
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1>
+Welcome {{ username }}
+</h1>
+
+<p>
+Login Successful
+</p>
+
+<a href="/logout">
+
+Logout
+
+</a>
+
+</body>
+
+</html>
